@@ -24,7 +24,7 @@ public class UserController {
 	UserServiceI userServiceI;
 
 	@Autowired
-	TokenUtil tokenUtil;
+	TokenUtil tokenUtil ;
 
 	@GetMapping("/getUserInfo")
 	public List<UserData> getUserInfo() {
